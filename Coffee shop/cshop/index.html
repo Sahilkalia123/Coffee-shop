@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Learning html</title>
+		<link rel="stylesheet" type="text/css" href="coffeeshop.css">
+	</head>
+	<body>
+		<nav>
+			<a href="index.html">Home |</a>
+			<a href="product.html">Product |</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<span style="border: 2px solid red; display: block;">Span1</span>
+		<span style="border: 2px solid green; display: block;">Span2</span>
+		<p></p>
+		<div style="border: 2px solid red; display: inline;">DIV</div>
+		<div style="border: 2px solid green;display: inline;">Div2</div>
+		<ul class="coffee-list">
+			<li>Mocha</li>
+			<li>Cappuccino</li>
+			<li>Espresso</li>
+			<li>Double Espresso</li>
+			<li>Latte</li>
+		</ul>
+		<ol type="A">
+			<li>Choose the coffee</li>
+			<li>Order the coffee</li>
+			<li>Complete the payment</li>
+			<li>Deliver the coffee</li>
+			<li>Enjoy the coffee</li>
+		</ol>
+		<dl>
+			<dt>Mocha Coffee</dt>
+			<dd>
+				Mocha coffee beans are from the plant species called coffee arabica, and it was originally only grown in Mocha, Yemen.
+			</dd>
+			<dt>Cappuccino Coffee</dt>
+			<dd>
+				Cappuccino is typically composed of a single espresso shot a dn hot milk.
+			</dd>
+		</dl>
+		<div>
+			<table class="pricing-table">
+				<caption class="caption-heading">
+					<h1>Coffee Menu</h1>
+				</caption>
+				<tr>
+					<th>Coffee Name</th>
+					<th>Price (in Rs.)</th>
+					<th>Availability</th>
+				</tr>
+				<tr class="tr-out-of-stock">
+					<td>Mocha</td>
+					<td>140</td>
+					<td>Out of stock</td>
+				</tr>
+				<tr class="tr-in-stock">
+					<td>Cappuccino</td>
+					<td>190</td>
+					<td>in stock</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="available-coffee">
+			<p>This is normal Text.</p>			
+			<p>This is <b>Bold</b></p>
+			<p>This is <i>italic</i></p>
+			<p>This is <strong>strong</strong></p>
+			<p>This is <em>empasiszed</em></p>
+			<p>This is <sub>subscript</sub></p>
+			<p>This is <sup>superscript</sup></p>
+			<p>This is <del> deleted</del></p>
+		</div>
+
+		<div class ="available-coffee out-of-stock" id="Mocha" style="display: inline-block;">
+			<h3>Mocha</h3>
+			<img src="mocha.png" class="div-img">
+		</div>
+		<div class="available-coffee in-stock" style="display: inline-block;">
+			<h3>Cappuccino</h3>
+			<img src="cappuccino.png" class="capu-img">
+		</div>
+		<footer class="footer">
+			<div style="height: 50%;">
+				<a href="index.html">Home |</a>
+				<a href="product.html">product |</a>
+			</div style="height: 50%;">
+			     Designed by Sahil kalia copyright@Inventrom
+			<div>
+			</div>
+		</footer>        
+	</body>
+</html>
